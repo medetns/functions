@@ -12,10 +12,10 @@ int PowerofA(int numA, int numB)
 }
 
 Console.WriteLine("Введите A: ");
-int numA = int.Parse(Console.ReadLine());
+int numA = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите B: ");
-int numB = int.Parse(Console.ReadLine());
+int numB = Convert.ToInt32(Console.ReadLine());
 
 int powerofnumber = PowerofA(numA, numB);
 Console.WriteLine(powerofnumber);
